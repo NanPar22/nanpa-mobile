@@ -2,7 +2,7 @@
 
 
 :root {
-  --background: #F4F3F3;
+  --background: #EEEFF2;
   --foreground: #171717;
 }
 
@@ -15,7 +15,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #F4F3F3;
+    --background: #EEEFF2;
     --foreground: #ededed;
   }
 }
@@ -29,9 +29,16 @@ body {
 }
 
 h1 {
-  @apply text-4xl font-bold text-[#252525] text-shadow-sm
+  @apply text-4xl font-bold text-[#252525] text-shadow-sm 
 } 
+h3 {
+  @apply text-3xl font-bold  text-[#252525] text-shadow-xs
+}
 
 .font_thai {
     font-family: "Sarabun", serif !important;
 }
+.font_eng {
+    font-family: "Roboto Condensed", serif !important;
+}
+
