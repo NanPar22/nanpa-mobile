@@ -24,18 +24,22 @@ export default function Home() {
           {/* card */}
           <div className=" h-full w-full  px-40   ">
             <div className="bg-white h-100 w-100 p-px rounded-md shadow-[1px_1px_3.5px_-0.5px_rgba(0,0,0,0.5)]  ">
-              <div className=" h-80 w-full  place-content-center flex    bg-amber-100 ">
+              <div className=" h-80 w-full  place-content-center flex    ">
                 <img src="https://www.apple.com/newsroom/videos/videos-2024/autoplay/2024/09/apple-intelligence-siri/posters/Apple-Intelligence-Siri.jpg.large_2x.jpg" alt=""
                   className="h-full w-[80%]  object-cover  "
                 />
               </div>
-              <div className="h-20 w-full p-1.5 bg-amber-800 flex gap-0.5 ">
-                <div className="bg-amber-300 h-full w-[70%] overflow-hidden ">
+              {/* title */}
+              <div className="h-20 w-full p-1.5 px-4 flex gap-0.5 ">
+                <div className=" h-full w-[70%] overflow-hidden ">
                   <h3 className="font_eng ">Iphone 00</h3>
+                  <div className="flex items-end">
                   <span>รุ่นล่าสุดจาก Apple</span>
+                  </div>
                 </div>
-                <div className="h-full w-[30%] bg-amber-200">
-                  <button ></button>
+                <div className="h-full flex flex-col gap-2 justify-center items-end w-[30%] ">
+                  <button className="btn" >ดูเพิ่มเติม</button>
+                  <button className="btn_sub" >เลือกซื้อ</button>
                 </div>
               </div>
             </div>
