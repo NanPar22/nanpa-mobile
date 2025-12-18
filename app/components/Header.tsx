@@ -6,18 +6,18 @@ import { text } from "stream/consumers";
 export default function Home() {
     return (
         <>
-            <div className="  h-12 w-full  fixed gap-5 flex justify-center items-end rounded-b-full p-px backdrop-blur-md bg-[#2E314B]/10    shadow-[0px_1px_2.5px_-0.5px_rgba(0,0,0,0.5)]       ">
+            <div className="  h-12 w-full  fixed gap-5 flex justify-center items-end rounded-b-lg p-px backdrop-blur-md bg-[#2E314B]/10    shadow-[0px_1px_2.5px_-0.5px_rgba(0,0,0,0.5)]       ">
                 <div className="  h-full w-full px-10 flex justify-center items-center  ">
-                    <div className=" h-full w-[50%] text-md font-normal flex justify-between items-center gap-5  text-black/60">
+                    <div className=" h-full w-[50%] text-md font-normal flex justify-between items-center gap-5  text-black/70">
                         <div className="flex justify-center items-cent gap-2 h-[60%]    font-stretch-50%  ">
                             <div className=" hover:bg-gray-400/10  rounded-md h-full p-1 flex justify-center items-center ">
                                 <i className="fa-solid fa-bars cursor-pointer "></i>
                             </div>
-                            <div className=" w-15 h-7 px-2  place-content-center object-cover items-center border-px rounded-md  hover:bg-gray-400/10 shadow-[0.5px_1px_2.5px_-0.5px_rgba(0,0,0,0.5)]
+                            {/* <div className=" w-15 h-7 px-2  place-content-center object-cover items-center border-px rounded-md  hover:bg-gray-400/10 shadow-[0.5px_1px_2.5px_-0.5px_rgba(0,0,0,0.5)]
                                             transform transition-transform duration-800 ease-in-out hover:-translate-y-0.5 hover:-translate-x-0.5  hover:scale-105 
                                             ">
                                 <img src="Image/logo.png" alt="" className="object-cover h-6  hover:bg-gray-400/10 " />
-                            </div>
+                            </div> */}
                         </div>
                         <button className=""> </button>
                         <div className="flex text-sm gap-2 font-bold h-[60%] w-full  ">

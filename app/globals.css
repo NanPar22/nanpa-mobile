@@ -35,6 +35,19 @@ h3 {
   @apply text-3xl font-bold  text-[#252525] text-shadow-xs
 }
 
+.title {
+  @apply text-xl  text-[#252525]
+}
+
+.price {
+   @apply text-2xl text-[#676D99] font-bold  
+}
+
+.text-shadow-custom {
+  text-shadow: 1px 1.5px 1.5px rgba(121,128,175,0.5);
+}
+
+
 .font_thai {
     font-family: "Sarabun", serif !important;
 }
@@ -44,7 +57,7 @@ h3 {
 
 
 .btn {
-  @apply bg-[#53577D]/50 hover:bg-[#53577D]/80  w-13  py-1 rounded-md text-[10px]  text-white text-center  shadow-[1px_1.5px_1.5px_-0.5px_rgba(121,128,175,100)]
+  @apply bg-[#53577D]/50  border border-[#53577D]/50 hover:bg-[#53577D]/80  w-13  py-0.5 rounded-md text-[10px]  text-white text-center  shadow-[1px_1.5px_1.5px_-0.5px_rgba(121,128,175,100)]
 
 }
 .btn_sub  {
